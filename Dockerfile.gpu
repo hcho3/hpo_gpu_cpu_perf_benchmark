@@ -1,0 +1,3 @@
+FROM nvcr.io/nvidia/rapidsai/rapidsai-core:22.10-cuda11.5-base-ubuntu20.04-py3.9
+
+RUN mamba install -y -n rapids optuna dask-ml
